@@ -11,4 +11,6 @@ cursor = mydb.cursor()
 
 cursor.execute("select * from todoTask")
 result = cursor.fetchall()
+  
+
 

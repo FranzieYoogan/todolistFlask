@@ -20,8 +20,32 @@
 
         <section class="containerItems">
 
-        
-
+            <div >
+            <div>
+                <h1>TASKS</h1>
+            </div>
+    
+         
+             
+                {% if data %}
+                
+            
+                {% for item in data %}
+    
+                <h1 style="font-size: 15px;">{{item[1]}}{{item[2]}}</h1>
+                    
+                {% endfor %}
+               
+    
+           
+          
+               
+             
+                {% endif %}
+                
+                
+                
+            </div>
     
 
         <form method="POST">

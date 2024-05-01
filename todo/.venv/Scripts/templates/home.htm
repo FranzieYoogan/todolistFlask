@@ -31,10 +31,15 @@
                 
             
                 {% for item in data %}
-    
-                <h1 style="font-size: 15px;">{{item[1]}}{{item[2]}}</h1>
-                    
+
+                <div style="display: flex; gap: 1em;" method="POST">
+                    <h1 style="font-size: 15px;">{{item[1]}}</h1> <h1 style="font-size: 15px;">{{item[2]}}</h1>
+                </div>
+            
+                     
                 {% endfor %}
+
+             
                
     
            
@@ -52,6 +57,12 @@
             <h1>ADD TASK</h1>
             <input type="text" name="inputValue" placeholder="enter task">
             <button type="submit">ADD</button>
+
+            {% if error %}
+
+                <h1>ERROR</h1>
+                    
+            {% endif %}
     </form>
            
         </section>

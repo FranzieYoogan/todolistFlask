@@ -4,16 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    {% block styles %}
+
+        <link rel="stylesheet" href="/static/css/tasks.css">
+
+    {% endblock %}
+
 </head>
 <body>
 
     {% include 'header.htm' %}
 
-    <section class="containerItems">
+    <section class="containerAll">
 
         <div>
 
-      
+            {% for item in data %}
+
+            <form style="display: flex; gap: 1em;" method="POST" class="formStyle">
+                
+                <input type="checkbox" name="checkBox" id="checkBox" value="{{item[2]}}"> <h1 style="font-size: 15px;">{{item[1]}}</h1> <h1 style="font-size: 15px;">{{item[2]}}</h1> <BUTTON type="submit">delete</BUTTON>
+            </form>
+                
+            {% endfor %}
+
+           
 
        
 

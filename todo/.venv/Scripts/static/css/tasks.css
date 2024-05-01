@@ -13,3 +13,35 @@
 
 }
 
+.buttonStyle {
+
+    background-color: transparent;
+    border: none;
+
+}
+
+.buttonIcon {
+
+    width: 30PX;
+    position: relative;
+    bottom: 5px;
+    right: 1em;
+    transition: 1s;
+
+}
+
+.buttonIcon:hover {
+
+    transform: scale(1.2)
+     rotate(15deg);
+
+}
+
+.checkBox {
+
+    position: relative;
+    bottom: 5px;
+    accent-color: red;
+    
+}
+

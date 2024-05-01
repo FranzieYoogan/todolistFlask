@@ -10,7 +10,7 @@
 .formStyle {
 
     margin-bottom: 1em;
-
+    border-bottom: 1px solid black;
 }
 
 .buttonStyle {
@@ -45,3 +45,10 @@
     
 }
 
+.containerItems {
+
+    border: 1px solid black;
+    padding: 20px;
+   
+
+}

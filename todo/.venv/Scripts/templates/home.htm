@@ -41,10 +41,7 @@
 
              
                
-    
-           
-          
-               
+   
              
                 {% endif %}
                 
@@ -53,11 +50,21 @@
             </div>
     
 
-        <form method="POST">
-            <h1>ADD TASK</h1>
-            <input type="text" name="inputValue" placeholder="enter task">
-            <button type="submit">ADD</button>
+        <form method="POST" style="display: flex;">
 
+            <div>
+
+    
+            <div>
+                <h1>ADD TASK</h1>
+                <input type="text" name="inputValue" placeholder="enter task">
+            
+            </div>
+            <div>
+                <button type="submit" class="buttonStyle">ADD</button>
+            </div>
+       
+        </div>
             {% if error %}
 
                 <h1>ERROR</h1>

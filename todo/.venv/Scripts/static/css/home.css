@@ -1,0 +1,12 @@
+.containerAll {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 3em;
+
+}
+
+.containerItems {
+    display: flex;
+    gap: 5em;
+}

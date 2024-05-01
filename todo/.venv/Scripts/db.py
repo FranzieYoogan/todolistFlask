@@ -7,8 +7,8 @@ mydb = mysql.connector.connect(
   database="todo_schema"
 )
 
-mycursor = mydb.cursor()
+cursor = mydb.cursor()
 
-mycursor.execute("select * from todoTask")
-result = mycursor.fetchall()
-print(result)
+cursor.execute("select * from todoTask")
+result = cursor.fetchall()
+

@@ -55,14 +55,19 @@
             <div>
 
     
-            <div>
-                <h1>ADD TASK</h1>
-                <input type="text" name="inputValue" placeholder="enter task">
+            <div style="display: flex;">
+                <div>
+                    <h1>ADD TASK</h1>
+                    <input type="text" name="inputValue" placeholder="enter task">
+                </div>
+
+                <div style="position: relative;">
+                    <button type="submit" class="buttonStyle"><img class="buttonIcon" src="/static/img/icons/add.png" alt=""></button>
+                </div>
+              
             
             </div>
-            <div>
-                <button type="submit" class="buttonStyle">ADD</button>
-            </div>
+          
 
             {% if error %}
 

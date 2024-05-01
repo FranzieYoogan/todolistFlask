@@ -16,6 +16,41 @@
 .buttonStyle {
 
     width: 100% !important;
-    margin-top: 1em;
+
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    right: 1em;
+    top: 50%;
+    transition: 1s;
+}
+
+.buttonStyle:hover {
+
+    transform: scale(1.2);
+
+}
+
+@media only screen and (width: 554px) {
+    
+    .buttonStyle {
+
+        top: 45%;
+
+    }
+  }
+
+  @media only screen and (width: 400px) {
+    
+    .buttonStyle {
+
+        top: 40%;
+
+    }
+  }
+
+.buttonIcon {
+
+    width: 30px;
 
 }

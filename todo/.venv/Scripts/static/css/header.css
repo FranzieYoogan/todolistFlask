@@ -1,0 +1,37 @@
+.todoIcon {
+
+    width: 40px;
+
+}
+
+.navbar-nav {
+
+    margin-left: 85%;
+
+}
+
+.navbar {
+
+    border-bottom: 2px solid black;
+
+}
+
+@media only screen and (max-width: 554px) {
+
+    .navbar-nav {
+
+        margin-left: 0%;
+    
+    }
+
+  }
+
+  @media only screen and (max-width: 400px) {
+
+    .navbar-nav {
+
+        margin-left: 0%;
+    
+    }
+
+  }

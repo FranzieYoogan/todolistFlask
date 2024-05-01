@@ -13,6 +13,12 @@
     gap: 5em;
 }
 
+input {
+
+    width: 100%;
+
+}
+
 .containerItems2 {
 
     border: 1px solid black;
@@ -54,6 +60,25 @@
         top: 40%;
 
     }
+
+    .titleTasks {
+
+        font-size: 20px;
+
+    }
+
+    .titleAdd {
+
+        font-size: 20px;
+
+    }
+
+    .itemH1 {
+
+        font-size: 10px !important;
+
+    }
+
   }
 
 .buttonIcon {
